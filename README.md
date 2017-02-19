@@ -1,2 +1,2 @@
 # JSLearning
-Learning JavaScript
+Learning JavaScript.
