@@ -1,0 +1,15 @@
+body {
+	font-family: "Arial";
+	color: #000
+}
+table {
+	border: 1px solid #699;
+}
+caption {
+	margin: auto;
+	padding: .2em;
+}
+th {
+	background-color: #9cc;
+	color: #000;
+}
