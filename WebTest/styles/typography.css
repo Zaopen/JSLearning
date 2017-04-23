@@ -1,0 +1,13 @@
+header nav a {
+    font-size: 1.5em;
+    font-family: Chalkduster;
+    text-decoration: none;
+}
+h1 {
+    font-size: 2em;
+    font-family: Courier;
+}
+p {
+    font-size: 1.5em;
+    font-family: Courier New;
+}

@@ -1,0 +1,30 @@
+img, header, article, nav {
+    display: block;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    padding-top: 3em;
+    margin-top: 3em;
+    margin: auto;
+}
+header nav {
+    padding: .5em;
+}
+header nav ul {
+    text-align: center;
+}
+header nav li {
+    padding-left: 6%;
+    padding-right: 6%;
+    display: inline;
+}
+article {
+    padding: 1em;
+    margin: 1em;
+}
+h1 {
+    padding-bottom: .5em;
+}
