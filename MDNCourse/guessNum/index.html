@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>猜数字游戏</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='guess.css'>
+</head>
+
+<body>
+    <h1>猜数字游戏</h1>
+    <p>我选了一个100以内的数字，你猜猜是多少？你有10次机会，每次我都会告诉你有没有猜错。</p>
+    <div class="form">
+        <label for="guessField">猜数字：</label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="button" value="拼一波" class="guessSubmit">
+    </div>
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHigh"></p>
+    </div>
+    <script src='guess.js'></script>
+</body>
+
+</html>
